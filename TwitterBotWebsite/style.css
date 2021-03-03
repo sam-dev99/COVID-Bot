@@ -1,0 +1,46 @@
+
+.btn{
+  border: none;
+  color: #0080FF;
+  padding: 2px;
+  cursor: pointer;
+}
+.content{
+  min-width: 200px;
+  position: absolute;
+}
+.content a{
+  text-decoration: none;
+  color: white;
+  background: #0080FF;
+  display: none;
+  transition: 0.3s;
+}
+.content a:hover{
+  opacity: 0.7;
+}
+@viewport{
+  zoom: 1.0;
+  width: auto;
+}
+.form-group{
+  width:900px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+/*.image{*/
+/*  float:right;*/
+/*  width:300px;*/
+/*  height:300px;*/
+/*  margin-top: 50px;*/
+/*}*/
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  margin-left: -40px;
+}
+ul li{
+  display: inline-block;
+  padding: 5px;
+}
